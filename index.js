@@ -1,3 +1,4 @@
+const chalk = require("chalk");
 console.log("Hello World");
-console.log("Git Remote");
-console.log("Git Local");
+console.log(chalk.bgBlue("Blue text"));
+console.log(chalk.red("Red text"));
